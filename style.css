@@ -182,3 +182,33 @@ html {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+
+/* Secondary Pages */
+
+.prose {
+  width: 100%;
+  background: white;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+
+.prosePoetry {
+  max-width: 600px;
+  text-align: justify;
+  padding: 20px;
+}
+
+.prosePoetry p {
+  margin: 25px;
+}
+
+.proseTitle {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 50px;
+  text-align: center;
+}
