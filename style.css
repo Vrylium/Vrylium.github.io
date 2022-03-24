@@ -124,6 +124,18 @@ hr {
   text-decoration: underline;
 }
 
+.blockNews {
+  width: 100%;
+  background: rgb(182, 182, 182);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blockNews a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
 .title {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
