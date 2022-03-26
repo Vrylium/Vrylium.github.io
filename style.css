@@ -144,6 +144,8 @@ hr {
   letter-spacing: 2px;
 }
 
+/************ FLEX ***********/
+
 .flex {
   display: flex;
   padding: 0 14px;
@@ -177,7 +179,7 @@ hr {
 }
 
 /* @media queries like the one below lets you control your css for screens above or below a certain width. In this case, anything with a screen width of less than 600px gets the style inside applied */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 600px) {
   .flex__group {
     max-width: 10%;
   }
@@ -195,7 +197,7 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-/* Secondary Pages */
+/**************** Secondary Pages ****************/
 
 .prose {
   width: 100%;
@@ -209,7 +211,7 @@ html {
 }
 
 .proseBody {
-  width: 70%;
+  max-width: 80%;
   text-align: justify;
 }
 
@@ -228,4 +230,23 @@ html {
   font-weight: bold;
   padding-top: 50px;
   text-align: center;
+}
+
+.gameDesc {
+  width: 100%;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0px;
+  line-height: 20px;
+}
+
+.gameTitle {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 50px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
