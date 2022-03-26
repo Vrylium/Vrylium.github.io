@@ -177,7 +177,7 @@ hr {
 }
 
 /* @media queries like the one below lets you control your css for screens above or below a certain width. In this case, anything with a screen width of less than 600px gets the style inside applied */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 300px) {
   .flex__group {
     max-width: 10%;
   }
@@ -206,6 +206,11 @@ html {
   text-align: center;
   letter-spacing: 0.5px;
   line-height: 20px;
+}
+
+.proseBody {
+  width: 70%;
+  text-align: justify;
 }
 
 .prosePoetry {
