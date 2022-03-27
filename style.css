@@ -16,11 +16,6 @@ b {
   font-weight: bold;
 }
 
-hr {
-  border: 1px solid #000000;
-  width: 200px;
-}
-
 .navbar {
   overflow: hidden;
   background-color: black;
@@ -258,8 +253,9 @@ html {
   text-align: center;
 }
 
-.gameDesc {
-  width: 100%;
+.projDesc {
+  width: 95%;
+  max-width: 400px;
   background: white;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
