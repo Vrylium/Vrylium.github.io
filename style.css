@@ -232,7 +232,8 @@ html {
 }
 
 .proseBody {
-  max-width: 80%;
+  width: 95%;
+  max-width: 800px;
   text-align: justify;
 }
 
@@ -265,10 +266,30 @@ html {
   line-height: 20px;
 }
 
-.gameTitle {
-  font-size: 25px;
-  font-weight: bold;
-  padding-top: 50px;
-  text-align: center;
+.versions {
+  width: 100%;
+  background: white;
   font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 15px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.versionsBody {
+  width: 95%;
+  max-width: 500px;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.versionsTitle {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: top;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
 }
