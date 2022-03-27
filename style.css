@@ -187,6 +187,21 @@ hr {
   }
 
   .block3_links {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+
+  .blockNews {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .flex__group {
+    max-width: 10%;
+  }
+
+  .block3_links {
     font-size: 12px;
     padding-left: 20px;
   }
