@@ -206,7 +206,7 @@ b {
 
   .blockNews {
     font-size: 13px;
-    max-width: 90%;
+    width: 100%;
     color: black;
     text-align: center;
   }
