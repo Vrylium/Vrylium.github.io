@@ -84,8 +84,8 @@ b {
   letter-spacing: 0.5px;
   padding-bottom: 50px;
   padding-top: 5px;
-  text-align: justify;
-  max-width: 450px;
+  text-align: left;
+  max-width: 500px;
 }
 
 .block3 a {
@@ -228,10 +228,33 @@ b {
   }
 }
 
+@media only screen and (max-width: 370px) {
+  .flex__group {
+    max-width: 10%;
+  }
+
+  .block3_links {
+    font-size: 11px;
+    padding-left: 10px;
+  }
+
+  .blockNews {
+    font-size: 13px;
+  }
+
+  #aboutpic {
+    width: 150px;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .about_flex {
     flex-direction: column;
     max-width: 70%;
+  }
+
+  #aboutpic {
+    width: 180px;
   }
 }
 
