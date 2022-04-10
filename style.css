@@ -338,3 +338,19 @@ html {
   letter-spacing: 1px;
   padding-bottom: 30px;
 }
+
+.galleryCaptions {
+  font-size: 13px;
+  text-align: center;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.galleryCaptions p {
+  margin: 70px;
+}
+
+#habanero {
+  width: 90%;
+  max-width: 400px;
+}
