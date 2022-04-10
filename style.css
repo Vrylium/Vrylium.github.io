@@ -261,6 +261,7 @@ b {
 html {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
 }
 
 /**************** Secondary Pages ****************/
