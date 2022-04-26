@@ -16,6 +16,14 @@ b {
   font-weight: bold;
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+/*************** Nav Bar ***************/
+
 .navbar {
   overflow: hidden;
   background-color: black;
@@ -188,7 +196,20 @@ b {
   line-height: 30px;
 }
 
-/* @media queries like the one below lets you control your css for screens above or below a certain width. In this case, anything with a screen width of less than 600px gets the style inside applied */
+/*************** Media Queries ***************/
+/* @media queries like the one below lets you control your css for screens above or below a certain width. In this case, anything with a screen width of less than 600px gets the style inside applied. When using multiple media queries, list the largest pixel width first and the smallest last (load order issue). */
+
+@media only screen and (max-width: 900px) {
+  .about_flex {
+    flex-direction: column;
+    max-width: 70%;
+  }
+
+  #aboutpic {
+    width: 180px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .flex__group {
     max-width: 10%;
@@ -254,23 +275,6 @@ b {
   #aboutpic {
     width: 150px;
   }
-}
-
-@media only screen and (max-width: 900px) {
-  .about_flex {
-    flex-direction: column;
-    max-width: 70%;
-  }
-
-  #aboutpic {
-    width: 180px;
-  }
-}
-
-html {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  scroll-behavior: smooth;
 }
 
 /**************** Secondary Pages ****************/
