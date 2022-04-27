@@ -1,15 +1,9 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<script rel="stylesheet" type="text/javascript" href="js.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 <html>
 
-<head>
+<?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."assets/php/"; include($IPATH."header.html") ?>
+
   <title>VRYLIUM</title>
-  <link rel="icon" type="image/x-icon" href="vryicon.png">
-  <link rel="shortcut icon" href="/vryicon.ico" />
-</head>
 
 <body>
 
@@ -48,7 +42,7 @@
                 <p style="text-align: justify; padding-bottom:15px;">The Vrylium Project is the eclectic hobbyist portfolio of Katherine Villa, with a mission of honing preexisting skills and cultivating new ones in an environment of zero monetary pressure. This means all content is free to access! Expect passion projects such as, but not limited to: literature, game design and appreciation, and blog-adjacent oddities.</p>
                 
                 <p style="text-align: justify; padding-bottom:15px;">
-                This site claims association with no external social media accounts. But if you like reading, follow on <a href="https://app.thestorygraph.com/profile/vrylium" target="_blank" style="text-decoration:none; color:black; background:white;">StoryGraph</a> for book reviews and recommendations.</p></center>
+                This site claims association with no external social media accounts. But if you like reading, follow on <a href="https://app.thestorygraph.com/profile/vrylium" target="_blank" style="text-decoration:none; color:black; background:white;">StoryGraph</a> for book reviews and recommendations. <i class="fa fa-envelope"></i></p></center>
 
         </div></div>
       </center>
@@ -155,16 +149,7 @@
 
  <!-- BLOCK 5 : FOOTER COPYRIGHT WITH EMAIL CONTACT -->     
    
-  <div class="block5_Footer">
-      <div class="flex">
-        <div style="text-align:left">
-          © 2022 KATHERINE VILLA • <a href="versions">V1.0</a>
-        </div>
-        <div class="flex__group">
-          <a href="mailto:vrylium@gmail.com"><u>vrylium@gmail.com</u></a>
-        </div>
-      </div>
-  </div>
+  <?php include($IPATH."footer.html"); ?>
 
 
 </body>
