@@ -144,34 +144,13 @@ html {
   text-transform: uppercase;
 }
 
-/*************** Coming Soon ***************/
-
-.comingsoon {
-  width: 100%;
-  background-color: white;
-  font-size: inherit;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 60px;
-}
-
-.comingsoon a {
-  background: black;
-  color: white;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: inherit;
-  letter-spacing: 1px;
-  padding: 5px;
-}
-
 /*************** Newsletter and Footer ***************/
 
 .block4_News {
   width: 100%;
   background: rgb(202, 202, 202);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 14px !important;
   text-align: center;
   margin: 0 auto;
 }
