@@ -11,3 +11,10 @@ fetch("philos.html")
   .then((data) => {
     philo.innerHTML = data;
   });
+
+const edc = document.querySelector(".edc");
+fetch("edc.html")
+  .then((res) => res.text())
+  .then((data) => {
+    edc.innerHTML = data;
+  });
