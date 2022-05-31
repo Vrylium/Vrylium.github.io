@@ -9,6 +9,7 @@ body {
   color: rgb(36, 36, 36);
   font-family: "mincho";
   background-color: #fafafa;
+  /*background: linear-gradient(to right, #e4f6fe 5%, #fafafa 30%);*/
   /*background-image: url("bgGB.png");
   background-position: center;
   background-size: auto;
