@@ -215,6 +215,11 @@ button {
   src: url("fonts/52Sphereoids-zyqL.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "button";
+  src: url("fonts/Wwbuttontime-rvPA.ttf") format("truetype");
+}
+
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1100px) {
