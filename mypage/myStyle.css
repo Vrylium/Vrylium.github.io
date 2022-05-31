@@ -27,11 +27,13 @@ b {
 a {
   font-weight: bold;
   color: #20cd99;
+  text-decoration: none;
 }
 
 a:hover {
   font-weight: bold;
   color: #89f1d2;
+  text-decoration: none;
 }
 
 img {
@@ -220,6 +222,14 @@ button {
     position: inherit;
     padding-top: 10px;
   }
+
+  .carousel__item {
+    height: 650px;
+  }
+
+  .inside {
+    height: 540px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -234,5 +244,13 @@ button {
 
   body {
     background-size: cover;
+  }
+
+  .carousel__item {
+    height: 650px;
+  }
+
+  .inside {
+    height: 540px;
   }
 }

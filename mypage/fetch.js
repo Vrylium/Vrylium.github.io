@@ -18,3 +18,10 @@ fetch("edc.html")
   .then((data) => {
     edc.innerHTML = data;
   });
+
+const interests = document.querySelector(".interests");
+fetch("interests.html")
+  .then((res) => res.text())
+  .then((data) => {
+    interests.innerHTML = data;
+  });
