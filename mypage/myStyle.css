@@ -244,10 +244,10 @@ button {
   }
 
   .carousel__item {
-    height: 650px;
+    height: 500px;
   }
 
   .inside {
-    height: 540px;
+    height: 390px;
   }
 }
