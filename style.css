@@ -37,6 +37,7 @@ html {
 
 button {
   background-color: white;
+  color: black;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -51,6 +52,7 @@ button {
 button:hover {
   background-color: rgb(202, 202, 202);
   cursor: pointer;
+  color: black;
 }
 
 /*************** Nav Bar ***************/
