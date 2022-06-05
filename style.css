@@ -20,10 +20,36 @@ b {
   font-weight: bold;
 }
 
+h1 {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
 html {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
+}
+
+button {
+  background-color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 15px;
+  display: inline-block;
+  border: 0px black;
+  border-radius: 30px;
+  margin: 10px;
+  width: 160px;
+}
+
+button:hover {
+  background-color: rgb(202, 202, 202);
+  cursor: pointer;
 }
 
 /*************** Nav Bar ***************/
@@ -80,8 +106,8 @@ html {
   color: white;
   font-size: 16px;
   margin-top: -4px;
-  padding-bottom: 30px;
   margin: 0 auto;
+  padding-bottom: 10px;
 }
 
 .block2_About a {
@@ -97,7 +123,7 @@ html {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   background-color: white;
   padding: 20px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .projectChild {
@@ -179,14 +205,6 @@ html {
 
 .block5_Footer a:hover {
   text-decoration: underline;
-}
-
-.title {
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 38px;
-  letter-spacing: 2px;
-  text-align: justify;
 }
 
 /************ FLEX ***********/
