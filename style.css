@@ -42,12 +42,12 @@ button {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  padding: 12px;
+  padding: 10px;
   display: inline-block;
   border: 0px black;
-  border-radius: 30px;
+  border-radius: 50px;
   margin: 10px;
-  width: 160px;
+  width: 150px;
 }
 
 button:hover {
