@@ -45,7 +45,7 @@ button {
   padding: 10px;
   display: inline-block;
   border: 0px black;
-  border-radius: 50px;
+  border-radius: 6px;
   margin: 10px;
   width: 150px;
 }
