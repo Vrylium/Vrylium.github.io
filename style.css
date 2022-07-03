@@ -21,7 +21,7 @@ b {
 }
 
 h1 {
-  font-weight: 400;
+  font-weight: 200;
   font-family: "Times New Roman", Times, serif;
   font-size: 36px;
   padding: 10px;
@@ -108,7 +108,7 @@ button:hover {
 .block2_About {
   width: 100%;
   background: black;
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   font-size: 16px;
   margin-top: -4px;
@@ -181,7 +181,7 @@ button:hover {
 .block4_News {
   width: 100%;
   background: rgb(202, 202, 202);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, Helvetica, sans-serif;
   font-size: 14px !important;
   text-align: center;
   margin: 0 auto;
@@ -197,7 +197,7 @@ button:hover {
   width: 100%;
   background: black;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, Helvetica, sans-serif;
   font-size: 13px;
   letter-spacing: 1px;
   margin-top: 15px;
@@ -368,7 +368,7 @@ button:hover {
   width: 90%;
   max-width: 400px;
   background: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, Helvetica, sans-serif;
   color: black;
   font-size: 15px;
   text-align: justify;

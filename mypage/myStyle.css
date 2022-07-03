@@ -133,6 +133,13 @@ button {
   z-index: -1;
 }
 
+.vryLink {
+  position: fixed;
+  bottom: 5px;
+  left: 10px;
+  z-index: 5;
+}
+
 /* CAROUSEL MECHANICS */
 
 .carousel {
@@ -140,12 +147,14 @@ button {
 }
 
 .carousel__item {
+  /* this is the white container */
   width: 800px;
   max-width: 80%;
   height: 500px;
   margin: auto;
   background: rgba(255, 255, 255, 0.9);
   padding: 20px;
+  border-radius: 13px;
   display: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -184,7 +193,6 @@ button {
   display: grid;
   grid-gap: 0px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  padding: 5px;
   max-width: 100%;
 }
 
@@ -228,6 +236,14 @@ button {
     position: inherit;
     padding-top: 10px;
   }
+
+  .carousel__item {
+    height: 550px;
+  }
+
+  .inside {
+    height: 435px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -249,6 +265,6 @@ button {
   }
 
   .inside {
-    height: 390px;
+    height: 385px;
   }
 }
