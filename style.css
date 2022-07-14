@@ -47,9 +47,9 @@ button {
   padding: 10px;
   display: inline-block;
   border: 0px black;
-  border-radius: 6px;
+  border-radius: 3px;
   margin: 10px;
-  width: 150px;
+  width: 140px;
 }
 
 button:hover {
@@ -234,7 +234,7 @@ button:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
   width: 80%;
   padding-top: 20px;
 }
@@ -244,16 +244,27 @@ button:hover {
   flex-flow: row wrap;
   justify-content: flex-end;
   flex-wrap: wrap;
-  line-height: 30px;
+  line-height: 28px;
 }
 
 /*************** Media Queries ***************/
 /* @media queries like the one below lets you control your css for screens above or below a certain width. In this case, anything with a screen width of less than 600px gets the style inside applied. When using multiple media queries, list the largest pixel width first and the smallest last (load order issue). */
 
+@media only screen and (min-height: 2000px) {
+  .about_flex {
+    flex-direction: column;
+    max-width: 50%;
+  }
+
+  #aboutpic {
+    width: 180px;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .about_flex {
     flex-direction: column;
-    max-width: 70%;
+    max-width: 80%;
   }
 
   #aboutpic {
