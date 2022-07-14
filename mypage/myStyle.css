@@ -6,7 +6,7 @@ html {
 
 body {
   font-size: 14px;
-  color: rgb(36, 36, 36);
+  color: rgb(0, 0, 0);
   font-family: "mincho";
   background-color: #fafafa;
   /*background: linear-gradient(to right, #e4f6fe 5%, #fafafa 30%);*/
@@ -94,7 +94,7 @@ button {
 
 .tag {
   position: absolute;
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
   text-align: center;
   font-size: 40px;
@@ -148,7 +148,7 @@ button {
 
 .carousel__item {
   /* this is the white container */
-  width: 1300px;
+  width: 900px;
   max-width: 80%;
   height: 500px;
   margin: auto;
@@ -234,6 +234,7 @@ button {
 @media only screen and (min-width: 2000px) {
   .carousel__item {
     height: 850px;
+    width: 1500px;
   }
 
   .inside {
@@ -241,7 +242,7 @@ button {
   }
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1170px) {
   .tag {
     position: inherit;
     padding-top: 10px;
