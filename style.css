@@ -116,11 +116,6 @@ button:hover {
   padding-bottom: 0px;
 }
 
-.block2_About a {
-  color: white;
-  text-decoration: underline;
-}
-
 /*************** Projects Formatting ***************/
 
 .projectParent {
@@ -229,11 +224,13 @@ button:hover {
   justify-content: flex-end;
   flex-wrap: wrap;
 }
+/* */
 
 .about_flex {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   gap: 30px;
   width: 80%;
   padding-top: 20px;
@@ -245,15 +242,16 @@ button:hover {
   justify-content: flex-end;
   flex-wrap: wrap;
   line-height: 28px;
+  max-width: 1000px;
 }
 
 /*************** Media Queries ***************/
 /* @media queries like the one below lets you control your css for screens above or below a certain width. In this case, anything with a screen width of less than 600px gets the style inside applied. When using multiple media queries, list the largest pixel width first and the smallest last (load order issue). */
 
-@media only screen and (min-height: 2000px) {
+@media only screen and (min-width: 2000px) {
   .about_flex {
-    flex-direction: column;
-    max-width: 50%;
+    gap: 60px;
+    padding-right: 20px;
   }
 }
 
