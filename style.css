@@ -255,10 +255,6 @@ button:hover {
     flex-direction: column;
     max-width: 50%;
   }
-
-  #aboutpic {
-    width: 180px;
-  }
 }
 
 @media only screen and (max-width: 900px) {
